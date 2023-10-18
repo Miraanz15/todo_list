@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background-color: yellow;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.taskAdder{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
