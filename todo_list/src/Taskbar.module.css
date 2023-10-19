@@ -1,0 +1,10 @@
+.bar{
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    align-items: center;
+    text-align: center;
+
+}
