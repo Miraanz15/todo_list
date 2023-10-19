@@ -1,12 +1,37 @@
+body {
+  background-color: lightblue;
+  font-size: 20px;
+}
 .App {
+  margin-top: 20vh;
   text-align: center;
   margin-left: 25vw;
   margin-right: 25vw;
+  font-size: 20px;
 }
 
 .taskAdder{
    display: flex;
-   justify-content: flex-start;
+   justify-content: space-between;
    width: 100%;
+   font-size: 20px;
+   margin-bottom: 8vh;
 }
-
+.addValue{
+  width: 60%;
+  height: 5vh;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-size: 15px;
+}
+.addButton{
+  width: 35%;
+  border-radius: 5px;
+  background-color: rgb(3, 101, 150);
+  color: wheat;
+  font-size: 15px;
+  border: none;
+}
+.addButton:hover{
+  cursor: pointer;
+}

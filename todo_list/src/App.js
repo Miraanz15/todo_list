@@ -20,14 +20,16 @@ function App() {
   }
 
   return (
+    <div> 
     <div className={styles.App}>
         <form className={styles.taskAdder} onSubmit={handleSubmit}>
-          <input type = "text" value = {value} placeholder = "Enter Task" onChange ={handleChange}/>
-          <button>Add</button>
+          <input className={styles.addValue} type = "text" value = {value} placeholder = "   Enter Task" onChange ={handleChange}/>
+          <button className={styles.addButton}>Add</button>
         </form>
         {components.map((component, index) => (
         <div key={index}>{component}</div>
       ))}
+    </div>
     </div>
   );
 }
